@@ -1,0 +1,94 @@
+print("!!!Welcome Pirate!!!\n This Game is about to find the TREASURE.Which is present in NORTH SENTINEL ISLAND[India]")
+print("NOTE:User is to choose the correct route to find TREASURE,And to win the Game")
+print("HEY!! PIRATE! Now you are in the Sentinal Island ,\n You have FIVE routes i.e [1,2,3,4,5]\n your Belongings are One Knife,One Gun with TWO Bullets")
+print("which Route you wanna choose to find TRESURE i.e 1 or 2 or 3 or 4 or 5")
+choose = int(input("Enter the Route Number:"))
+
+
+if choose==1:
+    print("YOu are in Route 1[Animal!!]")
+    print("In Route-1 you come across Two sub Routes \ni.e The Snake zone and the Lion one, Which one will you choose? \n Lion or Snake??")
+
+    list1 = ["lion","Lion","LION","l","L"]
+    list2 = ["snake","Snake","SNAKE","s","S"]
+    Route = input("Enter Lion or Snake[ choose any one of them ]")
+    
+    if Route in list2:
+        print("oh! God you were killed ..\nyou had choosen the wrong way \n you are out of the Game")
+    elif Route in list1:
+        print(" You killed the lion with your gun ! cleared the route. But you didn't get the tresure in this route \n its a diversion route which is made early to confuse you \n OOPS!! you are out of the game!")
+    else:
+         print("out!!")
+
+
+
+            
+elif choose==2 :
+    print("You are in Route-2[Water!!]")
+    print("walking after sometime you found a river, which consists of Crocodiles\nSo now you have two ways to cross the river i.e there is a Boat and a Jet with limtted fuel which one you will prefer \n the correct decision makes you to win \n hence choose Boat or Jet")
+
+    list3 = ["boat","Boat","BOAT","b","B"]
+    list4 = ["jet","Jet","JET","j","J"]
+    Route = input("Enter Boat or Jet[ Choose any one of them ]")
+
+    if Route in list3:
+        print("oH!.. shit..! you lose the Game \nThe Crocodiles in the river are killed you")
+    elif Route in list4:
+        print("yaaahooooo...!\nYou cross the river\nBut there is no TRESURE\nyou lose the game")
+    else:
+        print("out!!")
+                 
+
+
+
+elif choose==3:
+    print("You are in  Route-3[Risky!!]")
+    print("Hey. You got a map Congrats**,which helps you to reach your destination\nIN MAP:To reach your destination in front you have TWO routes \nbut you can move on one side only and that depends on your thinking to reach your destination\n i.e Man or Sand")
+
+    list5 = ["man","MAN","Man","M","m"]
+    list6 = ["sand","Sand","SAND","S","s"]
+    Route = input("Enter Man or Sand[ any one out of them ]")
+
+    if Route in list5:
+        print("oops..You are Troble \n You entered in wrong Way\nYou are in Zombie zone\nyou lose the Game!")
+    elif Route in list6:
+        print("Damm!! YOu are in Quick-Sand,you lose the Game")
+    else:
+        print("out!!")
+
+  
+
+elif choose==4:
+    print("You are in  Route-4[Mountain!!]")
+    print("This Route consists of many large and heigh Mountains\nTo achieve your Goal you has to be climb,\nafter travilling many mountains you have seen a CAVE ,now you have two routes to search Treasure either you move into the CAVE or you move further\n choose any one i.e Cave or Further")
+
+    list7 = ["cave","CAVE","Cave","c","C"]
+    list8 = ["further","Further","FURTHER","F","f"]
+    Route = input("Enter Cave or Further[ any one out of them ]")
+
+    if Route in list7:
+        print("Yes your wait is over,the TRESURE is here\nYOu WOn!!!!")
+    elif Route in list8:
+        print("ops you are going in wrong way\n you lose the Game")
+    else:
+        print("out!!")
+
+
+
+else:
+    print("You are in Route-5[Heaven]!!")
+    print("Here is the chance to have great fun you have the chance to get TRESURE or may you may get other things that may satisfies your SOAl..\n Here you have two ways choose one i.e Heaven or Food")
+
+    list9 = ["food","FOOD","Food","F","f"]
+    list10 = ["Heaven","HEAVEN","heaven","h","H"]
+    Route = input("Enter Food or Heaven[ any one out of them ]")
+
+    if Route in list9:
+        print("You lose the Game\nBut you Get a lot of meat to eat just Enjoy!!")
+    elif Route in list10:
+        print("You are in heaven There is a lot of Wine just enjoy it\nBut you lose the Game")
+    else:
+        print("out!!")
+
+   
+print("\n*\n**\n***\n****\nPlay Again....")   
